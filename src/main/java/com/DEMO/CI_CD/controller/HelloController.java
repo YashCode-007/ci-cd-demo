@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String helloCiCd() {
-        return "Hello From CI/CD Demo";
+        return "Hello From CI/CD Demo after Login and Pushing Docker image to Hub";
     }
 }
